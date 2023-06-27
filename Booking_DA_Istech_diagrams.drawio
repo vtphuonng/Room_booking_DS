@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-27T15:14:31.990Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="ASANbsTNR_eJJnmmqFOh" version="21.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-27T15:35:00.640Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="cX0jcw_8t38Sdd_nh-aS" version="21.5.1" type="github">
   <diagram name="Page-1" id="D8w3A1c4NBQzabuCHDF7">
     <mxGraphModel dx="1216" dy="1704" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -245,8 +245,8 @@
         <mxCell id="LEf2-nqMguErEL3u1rOa-70" value="Booking Information" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="2560" y="160" width="180" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="LEf2-nqMguErEL3u1rOa-71" value="- Booking ID&lt;br&gt;- MSSV&lt;br&gt;- Đơn vị&lt;br&gt;- Phòng học&lt;br&gt;- Thời gian đặt&lt;br&gt;- Thời gian chọn&lt;br&gt;- Người duyệt" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="LEf2-nqMguErEL3u1rOa-70" vertex="1">
-          <mxGeometry x="35" y="45" width="110" height="110" as="geometry" />
+        <mxCell id="LEf2-nqMguErEL3u1rOa-71" value="- Booking ID&lt;br&gt;- MSSV&lt;br&gt;- Đơn vị&lt;br&gt;- Phòng học&lt;br&gt;- Địa điểm&lt;br&gt;- Thời gian đặt&lt;br&gt;- Thời gian chọn&lt;br&gt;- Người duyệt" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="LEf2-nqMguErEL3u1rOa-70" vertex="1">
+          <mxGeometry x="35" y="35" width="110" height="130" as="geometry" />
         </mxCell>
         <mxCell id="ioqxV5oBWN_LTfzM5Hr--4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="LEf2-nqMguErEL3u1rOa-72" target="LEf2-nqMguErEL3u1rOa-74">
           <mxGeometry relative="1" as="geometry" />
