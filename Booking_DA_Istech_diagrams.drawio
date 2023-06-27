@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-06-27T15:02:43.470Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="6w29niq6GDMZb9GAIucb" version="21.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-27T15:14:31.990Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="ASANbsTNR_eJJnmmqFOh" version="21.5.1" type="github">
   <diagram name="Page-1" id="D8w3A1c4NBQzabuCHDF7">
-    <mxGraphModel dx="1034" dy="513" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1216" dy="1704" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -198,8 +198,17 @@
         <mxCell id="LEf2-nqMguErEL3u1rOa-59" value="User" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
           <mxGeometry x="860" y="2150" width="30" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="ioqxV5oBWN_LTfzM5Hr--37" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="1980" y="-250" width="1430" height="1430" as="geometry" />
+        </mxCell>
         <mxCell id="ioqxV5oBWN_LTfzM5Hr--3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="LEf2-nqMguErEL3u1rOa-60" target="LEf2-nqMguErEL3u1rOa-72">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LEf2-nqMguErEL3u1rOa-62" value="Phòng học" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="3150" y="920" width="200" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="LEf2-nqMguErEL3u1rOa-63" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;- Địa Điểm&lt;br&gt;- Số phòng&lt;br&gt;- Trạng Thái&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="LEf2-nqMguErEL3u1rOa-62" vertex="1">
+          <mxGeometry x="50" y="45" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="LEf2-nqMguErEL3u1rOa-60" value="Năm" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="3160" y="190" width="180" height="120" as="geometry" />
@@ -209,12 +218,6 @@
         </mxCell>
         <mxCell id="ioqxV5oBWN_LTfzM5Hr--31" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="LEf2-nqMguErEL3u1rOa-62" target="LEf2-nqMguErEL3u1rOa-78">
           <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="LEf2-nqMguErEL3u1rOa-62" value="Phòng học" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="3150" y="920" width="200" height="150" as="geometry" />
-        </mxCell>
-        <mxCell id="LEf2-nqMguErEL3u1rOa-63" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;- Địa Điểm&lt;br&gt;- Số phòng&lt;br&gt;- Trạng Thái&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="LEf2-nqMguErEL3u1rOa-62" vertex="1">
-          <mxGeometry x="50" y="45" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="LEf2-nqMguErEL3u1rOa-64" value="Người đặt" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="2220" y="370" width="200" height="150" as="geometry" />
@@ -334,6 +337,9 @@
             <mxPoint x="2670" y="960" as="sourcePoint" />
             <mxPoint x="2720" y="910" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="ioqxV5oBWN_LTfzM5Hr--38" value="&lt;span style=&quot;font-size: 48px;&quot;&gt;ERD&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2445" y="-250" width="500" height="170" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
