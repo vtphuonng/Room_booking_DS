@@ -1,0 +1,112 @@
+<mxfile host="app.diagrams.net" modified="2023-06-28T03:30:40.404Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="lsd-Nkfy7ucsCRXF3li5" version="21.5.1" type="github">
+  <diagram name="Page-1" id="D8w3A1c4NBQzabuCHDF7">
+    <mxGraphModel dx="-666" dy="513" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="JIk_7hETfaD4mNyKUkSH-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="LEf2-nqMguErEL3u1rOa-62" target="JIk_7hETfaD4mNyKUkSH-22" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JIk_7hETfaD4mNyKUkSH-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="LEf2-nqMguErEL3u1rOa-62" target="JIk_7hETfaD4mNyKUkSH-9" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LEf2-nqMguErEL3u1rOa-62" value="Phòng học" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="3050" y="410" width="200" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="LEf2-nqMguErEL3u1rOa-63" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;- Booking ID&lt;br&gt;- Số phòng&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="LEf2-nqMguErEL3u1rOa-62" vertex="1">
+          <mxGeometry x="50" y="50" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="JIk_7hETfaD4mNyKUkSH-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="LEf2-nqMguErEL3u1rOa-64" target="LEf2-nqMguErEL3u1rOa-70" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LEf2-nqMguErEL3u1rOa-64" value="Người đặt" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="2250" y="175" width="200" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="LEf2-nqMguErEL3u1rOa-65" value="- MSSV&lt;br&gt;- Tên&lt;br&gt;- Đơn vị&lt;br&gt;- SĐT&lt;br&gt;- Email" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="LEf2-nqMguErEL3u1rOa-64" vertex="1">
+          <mxGeometry x="60" y="40" width="70" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="LEf2-nqMguErEL3u1rOa-66" value="Người duyệt" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="2220" y="750" width="200" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="LEf2-nqMguErEL3u1rOa-67" value="- Booking ID&lt;br&gt;- Tên&lt;br&gt;- SĐT&lt;br&gt;- Email" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="LEf2-nqMguErEL3u1rOa-66" vertex="1">
+          <mxGeometry x="55" y="35" width="90" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="LEf2-nqMguErEL3u1rOa-68" value="Content" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="2220" y="572.5" width="200" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="LEf2-nqMguErEL3u1rOa-69" value="- Booking ID&lt;br&gt;- Content người book&lt;br&gt;- Content người duyệt" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="LEf2-nqMguErEL3u1rOa-68" vertex="1">
+          <mxGeometry x="25" y="38" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JIk_7hETfaD4mNyKUkSH-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="LEf2-nqMguErEL3u1rOa-70" target="LEf2-nqMguErEL3u1rOa-62" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JIk_7hETfaD4mNyKUkSH-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="LEf2-nqMguErEL3u1rOa-70" target="LEf2-nqMguErEL3u1rOa-68" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JIk_7hETfaD4mNyKUkSH-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="LEf2-nqMguErEL3u1rOa-70" target="LEf2-nqMguErEL3u1rOa-66" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2650" y="820" />
+              <mxPoint x="2420" y="820" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JIk_7hETfaD4mNyKUkSH-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="LEf2-nqMguErEL3u1rOa-70" target="JIk_7hETfaD4mNyKUkSH-28" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2650" y="630" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LEf2-nqMguErEL3u1rOa-70" value="Booking Information" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="2560" y="160" width="180" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="LEf2-nqMguErEL3u1rOa-71" value="- MSSV&lt;br&gt;- Booking ID" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="LEf2-nqMguErEL3u1rOa-70" vertex="1">
+          <mxGeometry x="45" y="80" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LEf2-nqMguErEL3u1rOa-80" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" target="LEf2-nqMguErEL3u1rOa-70" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2650" y="40" as="sourcePoint" />
+            <mxPoint x="3090" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ioqxV5oBWN_LTfzM5Hr--17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="ioqxV5oBWN_LTfzM5Hr--13" target="LEf2-nqMguErEL3u1rOa-64" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ioqxV5oBWN_LTfzM5Hr--13" value="User profile" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1980" y="175" width="160" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="ioqxV5oBWN_LTfzM5Hr--15" value="...&lt;br&gt;- MSSV&lt;br&gt;- Email&lt;br&gt;- SĐT" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="ioqxV5oBWN_LTfzM5Hr--13" vertex="1">
+          <mxGeometry x="50" y="45" width="60" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="JIk_7hETfaD4mNyKUkSH-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="JIk_7hETfaD4mNyKUkSH-9" target="JIk_7hETfaD4mNyKUkSH-11" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JIk_7hETfaD4mNyKUkSH-9" value="Thời gian sử dụng phòng" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="3400" y="200" width="200" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="JIk_7hETfaD4mNyKUkSH-10" value="- Số phòng&lt;br&gt;- Thời gian" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="JIk_7hETfaD4mNyKUkSH-9" vertex="1">
+          <mxGeometry x="45" y="50" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="JIk_7hETfaD4mNyKUkSH-11" value="Khung giờ sử dụng" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="3400" y="520" width="200" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="JIk_7hETfaD4mNyKUkSH-18" value="- Thời gian&lt;br&gt;- Khung giờ" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="JIk_7hETfaD4mNyKUkSH-11" vertex="1">
+          <mxGeometry x="55" y="55" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="JIk_7hETfaD4mNyKUkSH-22" value="Địa điểm phòng học" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="3065" y="700" width="170" height="152" as="geometry" />
+        </mxCell>
+        <mxCell id="JIk_7hETfaD4mNyKUkSH-23" value="- Số phòng&lt;br&gt;- Địa điểm" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="JIk_7hETfaD4mNyKUkSH-22" vertex="1">
+          <mxGeometry x="45" y="63" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="JIk_7hETfaD4mNyKUkSH-28" value="Thời gian gửi yêu cầu" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="2760" y="560" width="180" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="JIk_7hETfaD4mNyKUkSH-29" value="- Booking ID&lt;br&gt;- Thời gian" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="JIk_7hETfaD4mNyKUkSH-28" vertex="1">
+          <mxGeometry x="40" y="60" width="90" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
